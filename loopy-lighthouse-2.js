@@ -2,10 +2,6 @@ function loopyLighthouse(range, multiples, words) {
 
 	for (var i = range[0]; i <= range[1]; i++) {
 
-		var range;
-		var multiples;
-		var words;
-
 		if (i % multiples[0] === 0 && i % multiples[1] === 0) {
 			// filters the numbers that are multiples of both numbers within the multiples array
 			console.log("LoopyLighthouse");
