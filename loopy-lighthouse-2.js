@@ -10,7 +10,7 @@ function loopyLighthouse(range, multiples, words) {
 			// then console logs the first word passed into the words param
 			console.log(words[0]);
 		} else if (i % multiples[1] === 0) {
-			// filters numbers that are multiples of onlyl the second number passed into the multiples parameter
+			// filters numbers that are multiples of only the second number passed into the multiples parameter
 			// then console logs the second word passed into the words param
 			console.log(words[1]);
 		} else {
